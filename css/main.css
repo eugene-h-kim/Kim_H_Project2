@@ -1,0 +1,114 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #e9a11b;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 46px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+body {
+  font-family: 'Noto Serif', serif;
+}
+
+.article {
+  display: block;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 28px;
+  color: #dba261fb;
+  padding-bottom: 30px;
+}
+
+h2.date {
+  font-weight: 300;
+  font-size: 14px;
+  color: #6e6e6e;
+  padding-bottom: 30px;
+}
+
+/* h3 {
+  font-weight: 300;
+  font-size: 14px;
+  color: #6e6e6e;
+  padding-bottom: 30px;
+} */
+
+p {
+  color: #6b6b6a;
+  font-size: 14px;
+  line-height: 26px;
+  padding-bottom: 50px;
+}
+
+.hidden {
+  display: none;
+}
+
+.dropCap {
+  font-size: 100px;
+  font-weight: 300;
+  line-height: 70px;
+  float: left;
+  margin: 5px 10px 0px 0px;
+}
+
+.floatImgLeft {
+  float: left;
+  margin-right: 20px;
+  padding: 0;
+}
+
+.floatImgRight {
+  float: right;
+  margin-left: 20px;
+  padding: 0;
+}
+
+figure, figcaption {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+figcaption {
+  font-size: 12px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #666;
+  text-align: center;
+  line-height: 1px;
+  padding: 15px;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #555;
+  width: 100vw;
+}
+
+.footer p {
+  padding: 50px;
+  color: #fff;
+}
